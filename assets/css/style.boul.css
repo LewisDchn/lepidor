@@ -2,6 +2,7 @@
     background-image: url(../img/farine.png);
     background-size: cover;
     background-attachment: scroll;
+    font-family: 'Cookie', cursive;
 }
 *{
     transition-duration: 0.5s;
@@ -24,6 +25,7 @@ nav {  /*bar de nav*/
 }
 nav ul { 
     transition-duration: 0ms;
+    font-size: 24px;
     font-weight: bold;
     list-style-type: none;
     display: flex;  
@@ -51,9 +53,12 @@ nav a:hover{
     color: rgb(80, 80, 80);
 }
 #Box1 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
     background-color: black;
     border-radius: 25px;
-    height: 400px;
+    height: 350px;
     width: 300px;
     margin-top: 300px;
     float: left;
@@ -64,9 +69,12 @@ img {
     border-radius: 25px;
 }
 #Box2 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
     background-color: black;
     border-radius: 25px;
-    height: 400px;
+    height: 350px;
     width: 300px;
     margin-top: 300px;
     margin-left: 100px;
@@ -78,9 +86,12 @@ img {
     border-radius: 25px;
 }
 #Box3 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
     background-color: black;
     border-radius: 25px;
-    height: 400px;
+    height: 350px;
     width: 300px;
     margin-top: 300px;
     margin-left: 100px;
@@ -92,9 +103,12 @@ img {
     border-radius: 25px;
 }
 #Box4 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
     background-color: black;
     border-radius: 25px;
-    height: 400px;
+    height: 350px;
     width: 300px;
     margin-top: 300px;
     margin-left: 100px;
@@ -106,8 +120,9 @@ img {
     border-radius: 25px;
 }
 #Vitrine {
-    margin-top: 100px;
-    margin-left: 450px;
-    height: 500px;
+    height: 400px;
     width: 50%;
+    margin-top: 100px;
+    margin-left: 600px;
+    border-radius: 25px;
 }
