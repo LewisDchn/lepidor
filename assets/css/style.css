@@ -27,7 +27,7 @@ nav {  /*bar de nav*/
 nav ul { 
     transition-duration: 0ms;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 24px;
     list-style-type: none;
     display: flex;  
     padding-left: 0px;
@@ -58,12 +58,49 @@ nav a:hover{
     float: right;
     margin-top: 45px;
     margin-right: 35px;
+    font-size: 20px;
 }
 #facade{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     float: right;
     margin-left: 150px;
     margin-right: 150px;
     border-radius: 35px;
+}
+#contact{
+    width: 55%;
+    float: right;
+    margin-right: 50px;
+}
+#textcont{
+    width: 37.5%;
+}
+#forms{
+    float: right;
+}
+ol{
+    list-style-type: none;
+    float: right;
+    text-align: left;
+    font-size: 22px;
+}
+h1{
+    margin-left: 200px;
+    font-size: 32px;
+    margin-top: 40px;
+}
+input{
+    float: right;
+    margin-right: 50px;
+}
+#phone{
+    float: left;
+    margin-top: 5px;
+    font-size: 25px;
+    margin-left: 116px;
+}
+#reseaux{
+    width: 200px;
+    height: 100px;
 }
