@@ -17,6 +17,8 @@
 }
 nav {  /*bar de nav*/
     margin-top: 5%;
+    position: sticky;
+    top: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #D89237 ;
@@ -27,7 +29,7 @@ nav {  /*bar de nav*/
 nav ul { 
     transition-duration: 0ms;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 40px;
     list-style-type: none;
     display: flex;  
     padding-left: 0px;
@@ -56,14 +58,56 @@ nav a:hover{
 #text{
     width: 60%;
     float: right;
-    margin-top: 45px;
     margin-right: 35px;
+    font-size: 30px;
 }
 #facade{
-    width: 300px;
-    height: 200px;
+    width: 600px;
+    height: 360px;
     float: right;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 0px;
+    margin-right: 200px;
     border-radius: 35px;
+}
+#contact{
+    width: 55%;
+    float: right;
+    margin-right: 50px;
+}
+#textcont{
+    width: 37.5%;
+}
+#forms{
+    float: right;
+}
+ol{
+    list-style-type: none;
+    float: right;
+    text-align: left;
+    font-size: 30px;
+}
+h1{
+    margin-left: 200px;
+    font-size: 40px;
+    margin-top: 65px;
+}
+input{
+    float: right;
+    margin-right: 50px;
+    height: 25px;
+
+}
+#phone{
+    float: right;
+    margin-top: 130px;
+    font-size: 30px;
+    margin-right: 365px;
+    font-weight: bolder;
+}
+#reseaux{
+    width: 200px;
+    height: 100px;
+}
+.active{
+    color: azure;
 }
