@@ -16,6 +16,8 @@
 }
 nav {  /*bar de nav*/
     margin-top: 5%;
+    position: sticky;
+    top: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #D89237 ;
@@ -25,7 +27,7 @@ nav {  /*bar de nav*/
 }
 nav ul { 
     transition-duration: 0ms;
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
     list-style-type: none;
     display: flex;  
@@ -123,4 +125,7 @@ img {
     margin-top: 100px;
     margin-left: 600px;
     border-radius: 25px;
+}
+.active{
+    color: azure;
 }

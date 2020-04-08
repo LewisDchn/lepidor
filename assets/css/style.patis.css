@@ -1,7 +1,7 @@
 #fond{
     background-image: url(../img/patisserie11.jpg);
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     font-family: 'Cookie', cursive;
 }
 *{
@@ -16,6 +16,8 @@
 }
 nav {  /*bar de nav*/
     margin-top: 5%;
+    position: sticky;
+    top: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #D89237 ;
@@ -29,7 +31,7 @@ nav ul {
     list-style-type: none;
     display: flex;  
     padding-left: 0px;
-    font-size: 35px;
+    font-size: 40px;
 }
 nav ul li {
     flex: 1 1 auto;
@@ -126,4 +128,7 @@ img {
     margin-left: 600px;
     height: 500px;
     width: 50%;
+}
+.active{
+    color: azure;
 }
