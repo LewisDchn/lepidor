@@ -73,3 +73,6 @@ img {
   border-radius: 25px;
   float: center;
 }
+.active{
+  color: azure;
+}
