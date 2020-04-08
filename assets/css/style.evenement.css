@@ -5,13 +5,14 @@
   background-color: black;
   border-radius: 25px;
   height: 350px;
-  width: 250px;
+  width: 300px;
   margin-top: 150px;
+  margin-left: 0px;
   float: left;
 }
 img {
   height: 200px;
-  width: 250px;
+  width: 300px;
   border-radius: 25px;
 }
 #Box2 {
@@ -21,9 +22,9 @@ img {
   background-color: black;
   border-radius: 25px;
   height: 350px;
-  width: 250px;
+  width: 300px;
   margin-top: 150px;
-  margin-left: 10px;
+  margin-left: 100px;
   float: left;
 }
 img {
@@ -38,14 +39,14 @@ img {
   background-color: black;
   border-radius: 25px;
   height: 350px;
-  width: 250px;
+  width: 300px;
   margin-top: 150px;
-  margin-left: 10px;
+  margin-left: 100px;
   float: left;
 }
 img {
   height: 200px;
-  width: 250px;
+  width: 300px;
   border-radius: 25px;
 }
 #Box4 {
@@ -55,14 +56,14 @@ img {
   background-color: black;
   border-radius: 25px;
   height: 350px;
-  width: 250px;
+  width: 300px;
   margin-top: 150px;
-  margin-left: 10px;
+  margin-left: 100px;
   float: left;
 }
 img {
   height: 200px;
-  width: 250px;
+  width: 300px;
   border-radius: 25px;
 }
 #patisserie {
