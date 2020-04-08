@@ -27,7 +27,7 @@ nav {  /*bar de nav*/
 }
 nav ul { 
     transition-duration: 0ms;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
     list-style-type: none;
     display: flex;  
