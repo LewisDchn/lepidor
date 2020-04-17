@@ -9,64 +9,22 @@
     transition-duration: 0.5s;
 }
 #logo{
-    width: 300px;
-    height: 250px;
-    float: left;
-    margin-left: 50px;
-    margin-top: 0px;
+    width: 50px;
+    height: 50px;
 }
+
 nav {  /*bar de nav*/
-    margin-top: 5%;
-    position: sticky;
-    top: 0;
-    background-position: center;
-    background-repeat: no-repeat;
     background-color: #D89237 ;
     opacity: 0.8;
-    width: 70%;
-    float: right;
 }
-nav ul { 
-    transition-duration: 0ms;
+nav ul {    
     font-weight: bold;
     font-size: 40px;
-    list-style-type: none;
-    display: flex;  
-    padding-left: 0px;
-}
-nav ul li {
-    flex: 1 1 auto;
-    text-align: center;
-    position: relative;
-   
-}
-nav ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-nav a {
-    display: block;
-    text-decoration: none;
-    color: black;
-    border-bottom: 0px;
-       
 }
 nav a:hover{
     color: rgb(228, 228, 228);
 }
-#text{
-    width: 60%;
-    float: right;
-    margin-right: 35px;
-    font-size: 30px;
-}
 #facade{
-    width: 600px;
-    height: 360px;
-    float: right;
-    margin-left: 0px;
-    margin-right: 200px;
     border-radius: 35px;
 }
 #contact{
@@ -141,11 +99,6 @@ img {
     margin-left: 100px;
     float: left;
 }
-img {
-    height: 200px;
-    width: 300px;
-    border-radius: 25px;
-}
 #Box3 {
     color:white;
     text-align: center;
@@ -158,11 +111,6 @@ img {
     margin-left: 100px;
     float: left;
 }
-img {
-    height: 200px;
-    width: 300px;
-    border-radius: 25px;
-}
 #Box4 {
     color:white;
     text-align: center;
@@ -174,11 +122,6 @@ img {
     margin-top: 150px;
     margin-left: 100px;
     float: left;
-}
-img {
-    height: 200px;
-    width: 300px;
-    border-radius: 25px;
 }
 #Vitrine {
     margin-top: 130px;
