@@ -27,11 +27,6 @@ nav a:hover{
 #facade{
     border-radius: 35px;
 }
-#contact{
-    width: 55%;
-    float: right;
-    margin-right: 50px;
-}
 #textcont{
     width: 37.5%;
 }
@@ -45,7 +40,6 @@ ol{
     font-size: 30px;
 }
 h1{
-    margin-left: 200px;
     font-size: 40px;
     margin-top: 65px;
 }
@@ -139,4 +133,14 @@ img {
   }
 .active{
     color: azure; 
+}
+::placeholder {
+font-size: 20px;
+}
+.send-btn {
+    height: 45px;
+    font-size: 25px;
+}
+.contact p {
+    font-size: 30px;
 }
