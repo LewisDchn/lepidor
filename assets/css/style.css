@@ -134,6 +134,9 @@ form ol {
 .boulangerie-item img {
     height: 250px;
 }
+.boulangerie-row {
+    padding-top: 220px !important;
+}
 .img-pain {
     border-radius: 25px;
 }
@@ -146,4 +149,27 @@ form ol {
         display: flex;
         flex-wrap: nowrap;
     }
+}
+
+/*Evenement*/
+.eveimg {
+    height: 200px;
+    width: 400px;
+    border-radius: 25px 25px 0 0;
+}
+.textcadre {
+    border-radius: 0 0 25px 25px;
+}
+
+#choco {
+    height: 400px;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 600px;
+    border-radius: 25px;
+    float: center;
+    margin-bottom: 5%;
+}
+#img {
+    padding-top: 175px;
 }
