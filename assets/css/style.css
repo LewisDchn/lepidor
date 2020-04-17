@@ -3,12 +3,10 @@
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Cookie', cursive;
-   
 }
 *{
     transition-duration: 0.5s;
 }
-
 /*bar de nav*/
 nav {
     background-color: #D89237 ;
@@ -77,7 +75,8 @@ p {
     }
 
 }
-@media screen and (min-width: 1006px){
+@media screen and (min-width: 1006px)
+{
     #logo{
         position: absolute;
         margin-left: 35px;
@@ -96,6 +95,7 @@ p {
     list-style-type: none;
     font-size: 30px;
     padding: 0;
+    }
 }
 #reseaux{
     width: 200px;
