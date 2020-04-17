@@ -34,60 +34,6 @@ h1{
 .active{
     color: azure;
 }
-#Box1 {
-    color:white;
-    text-align: center;
-    font-size: 24px;
-    background-color: black;
-    border-radius: 25px;
-    height: 350px;
-    width: 300px;
-    margin-top: 150px;
-    float: left;
-    margin-left: 0px;
-}
-#Box2 {
-    color:white;
-    text-align: center;
-    font-size: 24px;
-    background-color: black;
-    border-radius: 25px;
-    height: 350px;
-    width: 300px;
-    margin-top: 150px;
-    margin-left: 100px;
-    float: left;
-}
-#Box3 {
-    color:white;
-    text-align: center;
-    font-size: 24px;
-    background-color: black;
-    border-radius: 25px;
-    height: 350px;
-    width: 300px;
-    margin-top: 150px;
-    margin-left: 100px;
-    float: left;
-}
-#Box4 {
-    color:white;
-    text-align: center;
-    font-size: 24px;
-    background-color: black;
-    border-radius: 25px;
-    height: 350px;
-    width: 300px;
-    margin-top: 150px;
-    margin-left: 100px;
-    float: left;
-}
-#Vitrine {
-    margin-top: 130px;
-    margin-left: 600px;
-    height: 500px;
-    width: 50%;
-}
 #patisserie {
     height: 400px;
     width: 50%;
@@ -151,5 +97,23 @@ textarea {
         color: #FFF;
         text-shadow: 1px 1px 2px black; 
         margin-bottom: 10px;
+    }
+}
+/*Boulangerie*/
+
+.boulangerie-item img {
+    height: 250px;
+}
+.img-pain {
+    border-radius: 25px;
+}
+@media screen and (min-width: 1200px)
+{
+    .boulangerie-item {
+        margin: 0.25rem;
+    }
+    .boulangerie-row {
+        display: flex;
+        flex-wrap: nowrap;
     }
 }
