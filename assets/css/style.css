@@ -111,3 +111,89 @@ input{
 .active{
     color: azure;
 }
+#Box1 {
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    background-color: black;
+    border-radius: 25px;
+    height: 350px;
+    width: 300px;
+    margin-top: 150px;
+    float: left;
+    margin-left: 0px;
+}
+img {
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+    
+}
+#Box2 {
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    background-color: black;
+    border-radius: 25px;
+    height: 350px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 100px;
+    float: left;
+}
+img {
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+}
+#Box3 {
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    background-color: black;
+    border-radius: 25px;
+    height: 350px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 100px;
+    float: left;
+}
+img {
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+}
+#Box4 {
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    background-color: black;
+    border-radius: 25px;
+    height: 350px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 100px;
+    float: left;
+}
+img {
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+}
+#Vitrine {
+    margin-top: 130px;
+    margin-left: 600px;
+    height: 500px;
+    width: 50%;
+}
+#patisserie {
+    height: 400px;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 600px;
+    border-radius: 25px;
+    float: center;
+  }
+.active{
+    color: azure; 
+}
