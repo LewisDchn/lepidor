@@ -37,32 +37,7 @@ h1{
     border-radius: 25px;
     float: center;
   }
-/*contact*/
-::placeholder {
-font-size: 30px;
-}
-input {
-    height: 40px;
-    border: none;
-    margin: 5px;
-}
-label {
-    width: 100px;
-}
-textarea {
-    border: none;
-    margin: 5px;
-}
-.send-btn {
-    height: 45px;
-    font-size: 25px;
-}
-.contact p {
-    font-size: 30px;
-}
-p {
-    font-size: 26px;
-}
+/*logo*/
 @media screen and (max-width: 1006px)
 {
     #logo{
@@ -97,12 +72,42 @@ p {
     padding: 0;
     }
 }
+/*contact*/
+::placeholder {
+font-size: 30px;
+}
+input {
+    height: 40px;
+    border: none;
+    margin: 5px;
+}
+label {
+    width: 100px;
+}
+textarea {
+    border: none;
+    margin: 5px;
+}
+.send-btn {
+    height: 45px;
+    font-size: 25px;
+}
+.contact p {
+    font-size: 30px;
+}
+p {
+    font-size: 26px;
+}
 #reseaux{
     width: 200px;
     height: auto;
 }
 .phone img{
     margin: auto 0;
+}
+form ol {
+    list-style: none;
+    padding-left: 0;
 }
 @media screen and (max-width: 768px)
 {
@@ -131,13 +136,16 @@ p {
 .boulangerie-item img {
     height: 250px;
 }
+.boulangerie-row {
+    padding-top: 220px !important;
+}
 .img-pain {
     border-radius: 25px;
 }
 @media screen and (min-width: 1200px)
 {
     .boulangerie-item {
-        margin: 0.25rem;
+        margin: 0.50rem;
     }
     .boulangerie-row {
         display: flex;
