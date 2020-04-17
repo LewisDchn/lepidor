@@ -8,10 +8,6 @@
 *{
     transition-duration: 0.5s;
 }
-#logo{
-    width: 50px;
-    height: 50px;
-}
 
 nav {  /*bar de nav*/
     background-color: #D89237 ;
@@ -20,6 +16,7 @@ nav {  /*bar de nav*/
 nav ul {    
     font-weight: bold;
     font-size: 40px;
+    opacity: 1;
 }
 nav a:hover{
     color: rgb(228, 228, 228);
@@ -41,7 +38,6 @@ ol{
 }
 h1{
     font-size: 40px;
-    margin-top: 65px;
 }
 input{
     float: right;
@@ -74,12 +70,6 @@ input{
     margin-top: 150px;
     float: left;
     margin-left: 0px;
-}
-img {
-    height: 200px;
-    width: 300px;
-    border-radius: 25px;
-    
 }
 #Box2 {
     color:white;
@@ -131,9 +121,7 @@ img {
     border-radius: 25px;
     float: center;
   }
-.active{
-    color: azure; 
-}
+
 ::placeholder {
 font-size: 20px;
 }
@@ -143,4 +131,35 @@ font-size: 20px;
 }
 .contact p {
     font-size: 30px;
+}
+p {
+    font-size: 26px;
+}
+@media screen and (max-width: 1006px)
+{
+    #logo{
+        position: relative;
+        left : calc(50% - 73.5px);
+        margin-top: 90px;
+            }
+    nav{
+        position: fixed;
+    }
+
+}
+@media screen and (min-width: 1006px){
+    #logo{
+        position: absolute;
+        margin-left: 35px;
+        margin-top: 1em;
+        z-index: 1300;
+    }
+    .carou {
+        padding-right: 40px;
+        margin-right: 15px; 
+        padding-left: 0px;
+    }
+    h1{
+        margin-top: 160px;
+    }
 }
