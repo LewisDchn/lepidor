@@ -16,41 +16,13 @@
     margin-top: 0px;
 }
 nav {  /*bar de nav*/
-    margin-top: 5%;
-    position: sticky;
-    top: 0;
-    background-position: center;
-    background-repeat: no-repeat;
     background-color: #D89237 ;
     opacity: 0.8;
-    width: 70%;
-    float: right;
 }
 nav ul { 
-    transition-duration: 0ms;
+
     font-weight: bold;
     font-size: 40px;
-    list-style-type: none;
-    display: flex;  
-    padding-left: 0px;
-}
-nav ul li {
-    flex: 1 1 auto;
-    text-align: center;
-    position: relative;
-   
-}
-nav ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-nav a {
-    display: block;
-    text-decoration: none;
-    color: black;
-    border-bottom: 0px;
-       
 }
 nav a:hover{
     color: rgb(228, 228, 228);
@@ -69,11 +41,6 @@ nav a:hover{
     margin-right: 200px;
     border-radius: 35px;
 }
-#contact{
-    width: 55%;
-    float: right;
-    margin-right: 50px;
-}
 #textcont{
     width: 37.5%;
 }
@@ -87,7 +54,6 @@ ol{
     font-size: 30px;
 }
 h1{
-    margin-left: 200px;
     font-size: 40px;
     margin-top: 65px;
 }
@@ -196,4 +162,14 @@ img {
   }
 .active{
     color: azure; 
+}
+::placeholder {
+font-size: 20px;
+}
+.send-btn {
+    height: 45px;
+    font-size: 25px;
+}
+.contact p {
+    font-size: 30px;
 }
