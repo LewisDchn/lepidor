@@ -36,7 +36,7 @@ h1{
     margin-left: 600px;
     border-radius: 25px;
     float: center;
-  }
+}
 /*logo*/
 @media screen and (max-width: 1006px)
 {
@@ -48,7 +48,6 @@ h1{
     nav{
         position: fixed;
     }
-
 }
 @media screen and (min-width: 1006px)
 {
@@ -132,7 +131,6 @@ form ol {
     }
 }
 /*Boulangerie*/
-
 .boulangerie-item img {
     height: 250px;
 }
