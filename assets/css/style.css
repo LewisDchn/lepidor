@@ -83,11 +83,12 @@ input{
     font-size: 24px;
     background-color: black;
     border-radius: 25px;
-    height: 350px;
-    width: 300px;
+    height: auto;
+    width: auto;
     margin-top: 150px;
     float: left;
-    margin-left: 0px;
+   /*  margin-left: 100px; */
+   
 }
 img {
     height: 200px;
@@ -101,11 +102,12 @@ img {
     font-size: 24px;
     background-color: black;
     border-radius: 25px;
-    height: 350px;
-    width: 300px;
+    height: auto;
+    width: auto;
     margin-top: 150px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     float: left;
+    
 }
 img {
     height: 200px;
@@ -118,11 +120,12 @@ img {
     font-size: 24px;
     background-color: black;
     border-radius: 25px;
-    height: 350px;
-    width: 300px;
+    height: auto;
+    width: auto;
     margin-top: 150px;
-    margin-left: 100px;
+   /*  margin-left: 100px; */
     float: left;
+    
 }
 img {
     height: 200px;
@@ -135,11 +138,12 @@ img {
     font-size: 24px;
     background-color: black;
     border-radius: 25px;
-    height: 350px;
-    width: 300px;
+    height: auto;
+    width: auto;
     margin-top: 150px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     float: left;
+    
 }
 img {
     height: 200px;
@@ -147,10 +151,7 @@ img {
     border-radius: 25px;
 }
 #Vitrine {
-    margin-top: 130px;
-    margin-left: 600px;
-    height: 500px;
-    width: 50%;
+   background-color: rgba(255, 255, 240, 0);
 }
 #patisserie {
     height: 400px;
