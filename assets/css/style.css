@@ -7,6 +7,15 @@
 *{
     transition-duration: 0.5s;
 }
+.padding-mobile {
+    padding-top: 220px;
+}
+@media screen and (max-width: 770px)
+{
+    .padding-mobile {
+        padding-top: 0;
+    }
+}
 /*bar de nav*/
 nav {
     background-color: #D89237 ;
@@ -44,7 +53,7 @@ h1{
         position: relative;
         left : calc(50% - 73.5px);
         margin-top: 90px;
-            }
+    }
     nav{
         position: fixed;
     }
@@ -73,7 +82,7 @@ h1{
 }
 /*contact*/
 ::placeholder {
-font-size: 20px;
+    font-size: 20px;
 }
 input {
     height: 25px;
@@ -90,7 +99,6 @@ textarea {
     border: none;
     margin: 5px;
 }
-
 .send-btn {
     height: 45px;
     font-size: 25px;
@@ -98,7 +106,6 @@ textarea {
 .contact p {
     font-size: 30px;
 }
-
 p {
     font-size: 26px;
 }
@@ -113,17 +120,17 @@ form ol {
     list-style: none;
     padding-left: 0;
 }
+.adress {
+    background-color: #D89237;
+    opacity: 0.8;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: #FFF;
+    text-shadow: 1px 1px 2px black; 
+}
 @media screen and (max-width: 768px)
 {
-    .adress {
-        background-color: #D89237;
-        opacity: 0.8;
-        width: fit-content;
-        margin: 0 auto;
-        border-radius: 10px;
-        color: #FFF;
-        text-shadow: 1px 1px 2px black; 
-    }
     form ol {
         background-color: #D89237;
         opacity: 0.8;
@@ -144,15 +151,9 @@ form ol {
     padding: 0;
     background-color: transparent;
 }
-
-    
-.boulangerie-row {
-    padding-top: 220px !important;
-}
 .img-pain {
     border-radius: 25px;
 }
-
 .body-boulangerie{
     border-radius: 0 0 25px 25px;
 }
@@ -171,7 +172,6 @@ form ol {
     height: 200px;
     border-radius: 25px 25px 0 0;
 }
-
 .textcadre {
     border-radius: 0 0 25px 25px;
 }
@@ -191,10 +191,6 @@ font-size: 20px;
 .contact p {
     font-size: 30px;
 }
-#img {
-    padding-top: 175px;
-    
-}
 /* patisserie  */
 @media screen and (min-width: 1200px)
 {
@@ -206,24 +202,17 @@ font-size: 20px;
         flex-wrap: nowrap;
     }
 }
-#Box {
-    height: 200px;
-    width: 300px;
-    border-radius: 25px 25px 0 0;
-   padding: 0;
-}
-#Box4 {
-    width: 300px;
-    height: 200px;
-    border-radius: 25px 25px 0 0;
-   padding: 0;
-}
 .imgVitrine {
     margin-top: 5%;
     border-radius: 25px;
     margin-bottom: 5%;
     width: 90%;
-    height: 700px;
-    padding-top: 250px;
  }
-/* fin patisserie */
+ .patisserie-item img {
+    height: 200px;
+    border-radius: 25px 25px 0 0;
+}
+.patisserie-item{
+    padding: 0;
+    background-color: transparent;
+}
