@@ -1,71 +1,72 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>L'épi d'Or</title>
+    <script src="https://kit.fontawesome.com/cd62dda54d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body id="fond" class="container-fluid">
+<body class="container-fluid" id="fond">
     <div class="row">
-        <nav class="col-12 navbar navbar-expand-md navbar-dark">
-            <a class="navbar-brand" href="#">
-                <img id="logo" src="assets/img/logo.png" alt="logo epi d'or" />
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="col-12 navbar fixed-top navbar-expand-md navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item "><a class="nav-link" href="index.html">Accueil</a></li>
+                <ul class="navbar-nav m-auto text-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
                     <li class="nav-item"><a class="nav-link" href="Boulangerie.html">Boulangerie</a></li>
                     <li class="nav-item active"><a class="nav-link" href="patisserie.html">Pâtisseries</a></li>
-                    <li class="nav-item"><a class="nav-link" href="evenement.html">Evènements</a></li>
+                    <li class="nav-item "><a class="nav-link" href="evenement.html">Evènements</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
+        <img id="logo" src="assets/img/grandlogo.png" class="rounded float-left" alt="logo epi d'or" />
         </nav>
     </div>
     <div class="container">
-
-        <div class="row pâtisserie-row"></div>
-        <div id="Box1" class="card col-xs-12 col-md-6 col-xl-3 ">
-            <img src="assets\img\eclair.jpg" alt="Pain Blanc">
-            <div class="card-body">
-            <p>Pate à choux allongée, garnie d'une onctueuse et légère créme fouettée saveur chocolat, recouverte d'un glacage fin et subtile </p>
+        <div class="patisserie-row" id="img">
+        <div id="Box" class="col-xs-12 col-md-6 col-xl-3 bg-dark text-white my-1 patisserie-item">
+            <img src="assets\img\eclair.jpg" alt="Pain Blanc" class="card-img-top img-fluid eveimg"/>
+            <div class="card-body bg-dark text-white textcadre">
+            <p class="card-text h4">Pate à choux allongée, garnie d'une onctueuse et légère créme fouettée saveur chocolat, recouverte d'un glacage fin et subtile </p>
         </div>
     </div>
 
-        <div id="Box2" class="card col-xs-12 col-md-6 col-xl-3 ">
-            <img src="assets\img\millefeuille.jpg" alt="Pain de Campagne" >
-            <div class="card-body">
-            <p>3 couches de pate feuilletée croustillante et caramélisée, entreposées sur une fine et savoureuse créme patissiére légèrement vanillée</p>
+        <div id="Box" class="col-xs-12 col-md-6 col-xl-3 bg-dark text-white my-1 patisserie-item">
+            <img src="assets\img\millefeuille.jpg" alt="Pain de Campagne" class="card-img-top img-fluid eveimg"/>
+            <div class="card-body bg-dark text-white textcadre">
+            <p class="card-text h5">3 couches de pate feuilletée croustillante et caramélisée, entreposées sur une fine et savoureuse créme patissiére légèrement vanillée</p>
         </div>
     </div>
-
-        <div id="Box3" class="card col-xs-12 col-md-6 col-xl-3 ">
-            <img src="assets\img\foretnoire.jpg" alt="Croissant" id="fo1">
-            <div class="card-body">
-            <p>Onctueux gateau à la cerise, constitué d'une génoise aérée au cacao imbibée de kirsch et fourrée à la créme chantilly, le tout recouvert de cerise et copeau de chocolat</p>
-        </div>
-    </div>
-    
-        <div id="Box4" class="card col-xs-12 col-md-6 col-xl-3 ">
-            <img src="assets\img\tartefraise.png" alt="Pain au Chocolat">
-            <div class="card-body">
-            <p>Tartelette de pate brisée accueillant une gourmande créme patissiére et recouverte de fraises fraiches et agréablement sucrées</p>
+        <div id="Box" class=" col-xs-12 col-md-6 col-xl-3 bg-dark text-white my-1 patisserie-item">
+            <img src="assets\img\foretnoire.jpg" alt="Croissant" id="fo1" class="card-img-top img-fluid eveimg"/>
+            <div class="card-body bg-dark text-white textcadre">
+            <p class="card-text h4">Onctueux gateau à la cerise, constitué d'une génoise aérée au cacao imbibée de kirsch et fourrée à la créme chantilly, le tout recouvert de cerise et copeau de chocolat</p>
         </div>
     </div>
     
+        <div id="Box4" class=" col-xs-12 col-md-6 col-xl-3 bg-dark text-white my-1 patisserie-item">
+            <img src="assets\img\tartefraise.png" alt="Pain au Chocolat" class="card-img-top img-fluid eveimg"/>
+            <div class="card-body bg-dark text-white textcadre">
+            <p class="card-text h4">Tartelette de pate brisée accueillant une gourmande créme patissiére et recouverte de fraises fraiches et agréablement sucrées</p>
+        </div>
+        </div>
     </div>
-        
-            <img id="vitrine" class="card col-xs-12 col-md-6 col-xl-3" src="assets\img\patisseries10.jpg" alt="Etal de pain">
-       
     
-        
-        
+    
+        <div class="row">
+            <img class="col-xs-12 col-md-6 col-xl-6 mx-auto mt-5 imgVitrine" src="assets\img\patisseries10.jpg " alt="Etal de pain"/>
+    
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
     </html>
