@@ -87,12 +87,36 @@ textarea {
     border: none;
     margin: 5px;
 }
+#Box1 {
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    background-color: black;
+    border-radius: 25px;
+    height: auto;
+    width: auto;
+    margin-top: 150px;
+    float: left;
+   /*  margin-left: 100px; */
+}
 .send-btn {
     height: 45px;
     font-size: 25px;
 }
 .contact p {
     font-size: 30px;
+}
+#Box2 {
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    background-color: black;
+    border-radius: 25px;
+    height: auto;
+    width: auto;
+    margin-top: 150px;
+    /* margin-left: 100px; */
+    float: left;
 }
 p {
     font-size: 26px;
@@ -130,46 +154,75 @@ form ol {
         text-shadow: 1px 1px 2px black; 
         margin-bottom: 10px;
     }
-}
+} 
 /*Boulangerie*/
 .boulangerie-item img {
-    height: 250px;
+    height: 200px;
+    border-radius: 25px 25px 0 0;
 }
+.boulangerie-item{
+    padding: 0;
+    background-color: transparent;
+}
+#Box3 {
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    background-color: black;
+    border-radius: 25px;
+    height: auto;
+    width: auto;
+    margin-top: 150px;
+   /*  margin-left: 100px; */
+    float: left;
+}
+    
 .boulangerie-row {
     padding-top: 220px !important;
 }
 .img-pain {
     border-radius: 25px;
 }
+.body-boulangerie{
+    border-radius: 0 0 25px 25px;
+}
 @media screen and (min-width: 1200px)
 {
     .boulangerie-item {
-        margin: 0.50rem;
+        margin: 1rem;
     }
     .boulangerie-row {
         display: flex;
         flex-wrap: nowrap;
     }
 }
-
 /*Evenement*/
 .eveimg {
     height: 200px;
     width: 400px;
     border-radius: 25px 25px 0 0;
 }
+#Vitrine {
+   background-color: rgba(255, 255, 240, 0);
+}
 .textcadre {
     border-radius: 0 0 25px 25px;
 }
-
 #choco {
-    height: 400px;
-    width: 50%;
     margin-top: 5%;
-    margin-left: 600px;
     border-radius: 25px;
-    float: center;
     margin-bottom: 5%;
+    width: 90%;
+}
+::placeholder {
+font-size: 20px;
+}
+.send-btn {
+    height: 45px;
+    font-size: 25px;
+}
+.contact p {
+    font-size: 30px;
 }
 #img {
     padding-top: 175px;

@@ -1,38 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <title>L'épi d'Or</title>
-        <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
-        <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
-    </head>
-    <body id="fond">
-        <div><img id="logo" src="assets/img/logo.png" alt="logo épi d'or" ></div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="Boulangerie.html">Boulangerie</a></li>
-                <li><a class="active" href="patisserie">Pâtisseries</a></li>
-                <li><a href="evenement.html">Evènements</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'épi d'Or</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="container-fluid" id="fond">
+    <div class="row">
+        <nav class="col-12 navbar fixed-top navbar-expand-md navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item "><a class="nav-link" href="index.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Boulangerie.html">Boulangerie</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="patisserie.html">Pâtisseries</a></li>
+                    <li class="nav-item"><a class="nav-link" href="evenement.html">Evènements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
-        <div id="Box1">
+    </div>
+    <div class="container">
+
+        <div class="row pâtisserie-row"></div>
+        <div id="Box1" class="card col-xs-12 col-md-6 col-xl-3 ">
             <img src="assets\img\eclair.jpg" alt="Pain Blanc">
-            <figcaption>Pate à choux allongée, garnie d'une onctueuse et légère créme fouettée saveur chocolat, recouverte d'un glacage fin et subtile </figcaption>
+            <div class="card-body">
+            <p>Pate à choux allongée, garnie d'une onctueuse et légère créme fouettée saveur chocolat, recouverte d'un glacage fin et subtile </p>
         </div>
-        <div id="Box2">
-            <img src="assets\img\millefeuille.jpg" alt="Pain de Campagne">
-            <figcaption>3 couches de pate feuilletée croustillante et caramélisée, entreposées sur une fine et savoureuse créme patissiére légèrement vanillée</figcaption>
+    </div>
+
+        <div id="Box2" class="card col-xs-12 col-md-6 col-xl-3 ">
+            <img src="assets\img\millefeuille.jpg" alt="Pain de Campagne" >
+            <div class="card-body">
+            <p>3 couches de pate feuilletée croustillante et caramélisée, entreposées sur une fine et savoureuse créme patissiére légèrement vanillée</p>
         </div>
-        <div id="Box3">
-            <img src="assets\img\foretnoire.jpg" alt="Croissant">
-            <figcaption>Onctueux gateau à la cerise, constitué d'une génoise aérée au cacao imbibée de kirsch et fourrée à la créme chantilly, le tout recouvert de cerise et copeau de chocolat</figcaption>
+    </div>
+
+        <div id="Box3" class="card col-xs-12 col-md-6 col-xl-3 ">
+            <img src="assets\img\foretnoire.jpg" alt="Croissant" id="fo1">
+            <div class="card-body">
+            <p>Onctueux gateau à la cerise, constitué d'une génoise aérée au cacao imbibée de kirsch et fourrée à la créme chantilly, le tout recouvert de cerise et copeau de chocolat</p>
         </div>
-        <div id="Box4">
+    </div>
+    
+        <div id="Box4" class="card col-xs-12 col-md-6 col-xl-3 ">
             <img src="assets\img\tartefraise.png" alt="Pain au Chocolat">
-            <figcaption>Tartelette de pate brisée accueillant une gourmande créme patissiére et recouverte de fraises fraiches et agréablement sucrées</figcaption>
+            <div class="card-body">
+            <p>Tartelette de pate brisée accueillant une gourmande créme patissiére et recouverte de fraises fraiches et agréablement sucrées</p>
         </div>
-        <img id="Vitrine" src="assets\img\patisseries10.jpg" alt="Etal de pain">
+    </div>
+    
+    </div>
+        
+    <img id="vitrine" class="card col-xs-12 col-md-6 col-xl-3" src="assets\img\patisseries10.jpg" alt="Etal de pain">
+       
+    
+        
+        
     </body>
     </html>
