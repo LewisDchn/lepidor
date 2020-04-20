@@ -7,6 +7,15 @@
 *{
     transition-duration: 0.5s;
 }
+.padding-mobile {
+    padding-top: 220px;
+}
+@media screen and (max-width: 770px)
+{
+    .padding-mobile {
+        padding-top: 0;
+    }
+}
 /*bar de nav*/
 nav {
     background-color: #D89237 ;
@@ -44,7 +53,7 @@ h1{
         position: relative;
         left : calc(50% - 73.5px);
         margin-top: 90px;
-            }
+    }
     nav{
         position: fixed;
     }
@@ -73,15 +82,18 @@ h1{
 }
 /*contact*/
 ::placeholder {
-font-size: 30px;
+    font-size: 20px;
 }
 input {
-    height: 40px;
+    height: 25px;
     border: none;
     margin: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
 }
 label {
     width: 100px;
+    font-size: 25px;
 }
 textarea {
     border: none;
@@ -106,18 +118,6 @@ textarea {
 .contact p {
     font-size: 30px;
 }
-#Box2 {
-    color:white;
-    text-align: center;
-    font-size: 24px;
-    background-color: black;
-    border-radius: 25px;
-    height: auto;
-    width: auto;
-    margin-top: 150px;
-    /* margin-left: 100px; */
-    float: left;
-}
 p {
     font-size: 26px;
 }
@@ -133,17 +133,17 @@ form ol {
     list-style: none;
     padding-left: 0;
 }
+.adress {
+    background-color: #D89237;
+    opacity: 0.8;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: #FFF;
+    text-shadow: 1px 1px 2px black; 
+}
 @media screen and (max-width: 768px)
 {
-    .adress {
-        background-color: #D89237;
-        opacity: 0.8;
-        width: fit-content;
-        margin: 0 auto;
-        border-radius: 10px;
-        color: #FFF;
-        text-shadow: 1px 1px 2px black; 
-    }
     form ol {
         background-color: #D89237;
         opacity: 0.8;
@@ -154,7 +154,7 @@ form ol {
         text-shadow: 1px 1px 2px black; 
         margin-bottom: 10px;
     }
-} 
+}
 /*Boulangerie*/
 .boulangerie-item img {
     height: 200px;
@@ -163,22 +163,6 @@ form ol {
 .boulangerie-item{
     padding: 0;
     background-color: transparent;
-}
-#Box3 {
-    color:white;
-    text-align: center;
-    font-size: 24px;
-    background-color: black;
-    border-radius: 25px;
-    height: auto;
-    width: auto;
-    margin-top: 150px;
-   /*  margin-left: 100px; */
-    float: left;
-}
-    
-.boulangerie-row {
-    padding-top: 220px !important;
 }
 .img-pain {
     border-radius: 25px;
@@ -199,11 +183,7 @@ form ol {
 /*Evenement*/
 .eveimg {
     height: 200px;
-    width: 400px;
     border-radius: 25px 25px 0 0;
-}
-#Vitrine {
-   background-color: rgba(255, 255, 240, 0);
 }
 .textcadre {
     border-radius: 0 0 25px 25px;
@@ -224,6 +204,28 @@ font-size: 20px;
 .contact p {
     font-size: 30px;
 }
-#img {
-    padding-top: 175px;
+/* patisserie  */
+@media screen and (min-width: 1200px)
+{
+    .patisserie-item {
+        margin: 1rem;
+    }
+    .patisserie-row {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+.imgVitrine {
+    margin-top: 5%;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    width: 90%;
+ }
+ .patisserie-item img {
+    height: 200px;
+    border-radius: 25px 25px 0 0;
+}
+.patisserie-item{
+    padding: 0;
+    background-color: transparent;
 }
