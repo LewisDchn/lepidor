@@ -98,7 +98,7 @@ textarea {
     margin-top: 150px;
     float: left;
    /*  margin-left: 100px; */
-   
+}
 .send-btn {
     height: 45px;
     font-size: 25px;
@@ -117,7 +117,7 @@ textarea {
     margin-top: 150px;
     /* margin-left: 100px; */
     float: left;
-    
+}
 p {
     font-size: 26px;
 }
@@ -153,7 +153,7 @@ form ol {
         text-shadow: 1px 1px 2px black; 
         margin-bottom: 10px;
     }
-
+}
 /*Boulangerie*/
 .boulangerie-item img {
     height: 200px;
@@ -182,7 +182,6 @@ form ol {
 .img-pain {
     border-radius: 25px;
 }
-<<<<<<< HEAD
 #Box4 {
     color:white;
     text-align: center;
@@ -194,10 +193,9 @@ form ol {
     margin-top: 150px;
     /* margin-left: 100px; */
     float: left;
-=======
+}
 .body-boulangerie{
     border-radius: 0 0 25px 25px;
->>>>>>> 623b0f65c91ebb9ed63eb3cc23fa524bed2beabe
 }
 @media screen and (min-width: 1200px)
 {
